@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EDA7DC9181E9F230030F3F7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7DC8181E9F230030F3F7 /* main.c */; };
 		0EDA7DCB181E9F230030F3F7 /* Tp2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0EDA7DCA181E9F230030F3F7 /* Tp2.1 */; };
+		0EDA7DD9181E9F9C0030F3F7 /* graph_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7DD1181E9F9C0030F3F7 /* graph_io.c */; };
+		0EDA7DDA181E9F9C0030F3F7 /* test_graph_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7DD6181E9F9C0030F3F7 /* test_graph_io.c */; };
+		0EDA7DDB181E9F9C0030F3F7 /* WINBGIM.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7DD7181E9F9C0030F3F7 /* WINBGIM.CPP */; };
+		0EDA7DDD181E9FCC0030F3F7 /* Tp2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7DDC181E9FCC0030F3F7 /* Tp2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +29,16 @@
 
 /* Begin PBXFileReference section */
 		0EDA7DC5181E9F230030F3F7 /* Tp2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tp2; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EDA7DC8181E9F230030F3F7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0EDA7DCA181E9F230030F3F7 /* Tp2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Tp2.1; sourceTree = "<group>"; };
+		0EDA7DD1181E9F9C0030F3F7 /* graph_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = graph_io.c; path = ../../../../../../Fichiers_offerts/graph_io.c; sourceTree = "<group>"; };
+		0EDA7DD2181E9F9C0030F3F7 /* graph_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph_io.h; path = ../../../../../../Fichiers_offerts/graph_io.h; sourceTree = "<group>"; };
+		0EDA7DD3181E9F9C0030F3F7 /* module_feu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = module_feu.h; path = ../../../../../../Fichiers_offerts/module_feu.h; sourceTree = "<group>"; };
+		0EDA7DD4181E9F9C0030F3F7 /* module_terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = module_terrain.h; path = ../../../../../../Fichiers_offerts/module_terrain.h; sourceTree = "<group>"; };
+		0EDA7DD5181E9F9C0030F3F7 /* module_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = module_util.h; path = ../../../../../../Fichiers_offerts/module_util.h; sourceTree = "<group>"; };
+		0EDA7DD6181E9F9C0030F3F7 /* test_graph_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = test_graph_io.c; path = ../../../../../../Fichiers_offerts/test_graph_io.c; sourceTree = "<group>"; };
+		0EDA7DD7181E9F9C0030F3F7 /* WINBGIM.CPP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WINBGIM.CPP; path = ../../../../../../Fichiers_offerts/WINBGIM.CPP; sourceTree = "<group>"; };
+		0EDA7DD8181E9F9C0030F3F7 /* WINBGIM.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WINBGIM.H; path = ../../../../../../Fichiers_offerts/WINBGIM.H; sourceTree = "<group>"; };
+		0EDA7DDC181E9FCC0030F3F7 /* Tp2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tp2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +71,16 @@
 		0EDA7DC7181E9F230030F3F7 /* Tp2 */ = {
 			isa = PBXGroup;
 			children = (
-				0EDA7DC8181E9F230030F3F7 /* main.c */,
+				0EDA7DD1181E9F9C0030F3F7 /* graph_io.c */,
+				0EDA7DD2181E9F9C0030F3F7 /* graph_io.h */,
+				0EDA7DD3181E9F9C0030F3F7 /* module_feu.h */,
+				0EDA7DD4181E9F9C0030F3F7 /* module_terrain.h */,
+				0EDA7DD5181E9F9C0030F3F7 /* module_util.h */,
+				0EDA7DD6181E9F9C0030F3F7 /* test_graph_io.c */,
+				0EDA7DD7181E9F9C0030F3F7 /* WINBGIM.CPP */,
+				0EDA7DD8181E9F9C0030F3F7 /* WINBGIM.H */,
 				0EDA7DCA181E9F230030F3F7 /* Tp2.1 */,
+				0EDA7DDC181E9FCC0030F3F7 /* Tp2.c */,
 			);
 			path = Tp2;
 			sourceTree = "<group>";
@@ -117,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDA7DC9181E9F230030F3F7 /* main.c in Sources */,
+				0EDA7DD9181E9F9C0030F3F7 /* graph_io.c in Sources */,
+				0EDA7DDA181E9F9C0030F3F7 /* test_graph_io.c in Sources */,
+				0EDA7DDB181E9F9C0030F3F7 /* WINBGIM.CPP in Sources */,
+				0EDA7DDD181E9FCC0030F3F7 /* Tp2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
